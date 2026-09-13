@@ -58,5 +58,15 @@ public class Estudiantes {
         this.notas=notas;
     }  
     
+    //limitar notas 3 
+    public void agregarnotas (double notass){
+        if(notas.size() <= 3){
+            notas.add(notass);
+        }else{
+            System.out.println("ERROR");
+        }
+    }
+
+    
 
 }
