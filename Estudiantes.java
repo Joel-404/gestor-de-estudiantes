@@ -21,7 +21,42 @@ public class Estudiantes {
 
     }
     
+//gets
+    public String getId(){
+        return id;
+    }
+    public String getNombre(){
+        return nombre;
+    }
+    public String getApellido(){
+        return apellido;
+    }
+    public String getCorreo(){
+        return correo;
+    }
+    public String getCarrera(){
+        return carrera;
+    }
+    public ArrayList<Double> getNotas(){
+        return notas;
+    }
+    //set
+    public void setNombre(String nombre){
+        this.nombre=nombre;
+    }   
+    public void setApellido(String apellido){
+        this.apellido=apellido;
+    }
+    public void setCorreo(String correo){
+        this.correo=correo;
+    }
+    public void setCarrera(String carrera){
+        this.carrera=carrera;
+    }
 
+    public void setNotas(ArrayList<Double> notas){
+        this.notas=notas;
+    }  
     
 
 }
